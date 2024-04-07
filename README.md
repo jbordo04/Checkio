@@ -1,4 +1,4 @@
-# CHECKIO challenges: [Visit Here]
+# Checkio Challenges: [Visit] [Here]
 
 ![dashboard](./foto.jpg)
 
@@ -6,7 +6,7 @@ A repository filled with checkio challenges from elementary to advanced
 
 ## How It's Made:
 
-Teach used: ![TSLogo](https://badges.frapsoft.com/typescript/code/typescript.png?v=101)](https://github.com/ellerbrock/typescript-badges/)
+Teach used: ![TSLogo](https://badges.frapsoft.com/typescript/code/typescript.png?v=101)
 
 Everyday, I try to find some time to solve an exercise!
 
@@ -14,4 +14,5 @@ Everyday, I try to find some time to solve an exercise!
 
 The Biggest Lesson I learned in tackling this endless supply of questions is understanding that there is a long way to go. Not being able to answer a question is okay, as long as you take the initiative to improve.
 
-[Visit Here](https://checkio.org)
+[Visit](https://checkio.org)
+[Here](https://checkio.org)
