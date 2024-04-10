@@ -27,19 +27,19 @@ The mission was taken from Python CCPS 109. It is taught for Ryerson Chang Schoo
 
 //Answer//
 
-function frequencySorting(numbers) {
-  const array = []
-  numbers.map((number) => {
+function frequencySorting(numbers: number[]): number[] {
+  const array: number[][] = []
+  numbers.map((number: number) => {
     const index = array.findIndex((item) => item[0] == number)
     if (index == -1) {
-      const newArr = []
+      const newArr: number[] = []
       newArr.push(number)
       array.push(newArr)
     } else {
       array[index].push(number)
     }
   })
-  array.sort((a, b) => {
+  array.sort((a: number[], b: number[]): number => {
     if (a.length !== b.length) {
       return b.length - a.length
     }
@@ -48,13 +48,11 @@ function frequencySorting(numbers) {
         return a[i] - b[i]
       }
     }
+    return 0
   })
-  const finalArray = []
+  const finalArray: number[] = []
   for (let i = 0; i < array.length; i++) {
-    array[i].map((num) => finalArray.push(num))
+    array[i].map((num: number) => finalArray.push(num))
   }
-
   return finalArray
 }
-// frequencySorting([1, 2, 3, 4, 5])
-// frequencySorting([3, 4, 11, 13, 11, 4, 4, 7, 3])

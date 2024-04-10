@@ -20,7 +20,7 @@ allTheSame([1]) === true
 
 //Answer//
 
-function allTheSame(elements: any[]): boolean {
+function allTheSame(elements: (string | number)[]): boolean {
   //const array =  elements.filter(element => value == element)
   //return !(elements.length - array.length > 0)
   return !(

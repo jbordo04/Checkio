@@ -26,8 +26,11 @@ The input text will consists of English letters in uppercase and lowercase and w
 
 //Answer//
 
-function popularWords(text: string, words: string[]) {
-  const object = {}
+interface Iobject {
+  [key: string]: number
+}
+function popularWords(text: string, words: string[]): Iobject {
+  const object: Iobject = {}
   words.forEach((word) => {
     const count: string[] = text
       .toLowerCase()
