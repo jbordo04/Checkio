@@ -37,6 +37,8 @@ y in (0, 1)
 operation in ("conjunction", "disjunction", "implication", "exclusive", "equivalence")
 */
 
+//Answer//
+
 const OPERATION_NAMES = [
   "conjunction",
   "disjunction",

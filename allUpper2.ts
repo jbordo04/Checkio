@@ -16,6 +16,9 @@ isAllUpper("123") ==  false
 Precondition: a-z, A-Z, 1-9 and spaces.
 
 */
+
+//Answer//
+
 function isAllUpper(text: string): boolean {
   const data = text.replace(/[0-9]/g, "").trim().replace(" ", "")
   if (data === "") return false
